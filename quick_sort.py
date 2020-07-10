@@ -29,3 +29,11 @@ def quicksort(items):
 items = [8, 3, 1, 7, 0, 10, 2]
 quicksort(items)
 print(items)
+
+items = [1, 0]
+quicksort(items)
+print(items)
+
+items = [96, 97, 98]
+quicksort(items)
+print(items)
