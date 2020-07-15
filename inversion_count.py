@@ -28,7 +28,7 @@ def merge(arr, temp, left, mid, right):
             i += 1
         else:
             temp[k] = arr[j]
-            invc += mid - i + 1
+            invc = invc + (mid - i) + 1
             k += 1
             j += 1
     while i <= mid:
